@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
-
-/*=============================================
-                    HEADER          
-    =============================================*/
+/* =============================================
+                    HEADER
+    ============================================= */
 
 .header-logo {
   width: 132px;
@@ -26,9 +26,47 @@
   border: none;
   border-radius: 12px;
   margin: 0 7px;
+  line-height: 16px;
 }
 
 .fa-user,
 .fa-bars {
   color: #fdc8c3;
+}
+
+.story-h1 {
+  font-size: 1rem;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+
+.art-story a {
+  font-size: 1.2rem;
+  color: black;
+  line-height: 1.5rem;
+}
+
+.art-story p {
+  font-size: 0.81rem;
+  line-height: 1.125rem;
+}
+
+.border-top-gross {
+  border-top: 4px solid #d9d9d9;
+}
+
+.border-top-double {
+  border-top: 3px double #d9d9d9;
+}
+
+.border-top-double::before {
+  content: "VS";
+  background-color: black;
+  color: #d6d6d6;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  bottom: 1rem;
+  left: 50%;
+  padding: 0.1rem 0.30rem;
 }
