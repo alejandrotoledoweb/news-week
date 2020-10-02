@@ -34,6 +34,14 @@
   font-size: 0.8rem;
 }
 
+.primary-font {
+font-family: "Roboto Condensed", sans-serif;
+}
+
+.text-font {
+  font-family: "Archivo", sans-serif;
+}
+
 /* =====  End of GLOBAL SETTINGS  ====== */
 
 /* =============================================
@@ -154,4 +162,46 @@
 }
 
 /* =====  End of Section comment block  ====== */
+
+
+/*=============================================
+=            IN THE MAGAZINE            =
+=============================================*/
+
+.after-cover-text {
+  color: #f72210;
+  font-weight: bold;
+}
+
+/*=====  End of IN THE MAGAZINE  ======*/
+
+
+/*=============================================
+=            EDITOR'S PICK            =
+=============================================*/
+
+.editor-pick-text {
+  font-size: 0.81rem;
+  line-height: 18px;
+  color: #555;
+
+}
+
+/*=====  End of EDITOR'S PICK  ======*/
+
+
+/*=============================================
+=            U.S.            =
+=============================================*/
+
+.black-font-news {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+  color: black;
+}
+
+/*=====  End of U.s.  ======*/
+
+
 
