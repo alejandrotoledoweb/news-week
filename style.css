@@ -5,6 +5,44 @@
   font-size: 16px;
 }
 
+
+/*=============================================
+=            GLOBAL SETTINGS            =
+=============================================*/
+
+.black-font-big {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: black;
+  line-height: 10px;
+}
+
+.black-font-medium {
+  font-size: 0.81rem;
+  font-weight: bold;
+  color: black;
+  line-height: 20px;
+}
+
+.story-h1 {
+  font-size: 1rem;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+
+
+.small-font {
+  font-size: 0.8rem;
+}
+
+/*=====  End of GLOBAL SETTINGS  ======*/
+
+
+
+
+
+
+
 /* =============================================
                     HEADER
     ============================================= */
@@ -34,11 +72,10 @@
   color: #fdc8c3;
 }
 
-.story-h1 {
-  font-size: 1rem;
-  color: #9a9a9a;
-  font-weight: 600;
-}
+
+/*=============================================
+=            FEATURE STORIES            =
+=============================================*/
 
 .art-story a {
   font-size: 1.2rem;
@@ -51,8 +88,19 @@
   line-height: 1.125rem;
 }
 
+/*=====  End of FEATURE STORIES  ======*/
+
+
+/*=============================================
+=            THE DEBATE            =
+=============================================*/
+
 .border-top-gross {
   border-top: 4px solid #d9d9d9;
+}
+
+.border-bottom-gross {
+  border-bottom: 4px solid #d9d9d9;
 }
 
 .border-top-double {
@@ -60,13 +108,21 @@
 }
 
 .border-top-double::before {
-  content: "VS";
+  content: "vs";
+  font-size: 1.2rem;
+  font-weight: bold;
   background-color: black;
   color: #d6d6d6;
   border-radius: 50%;
   position: relative;
   display: block;
-  bottom: 1rem;
+  bottom: 2.2rem;
   left: 50%;
   padding: 0.1rem 0.30rem;
 }
+
+/*=====  End of THE DEBATE  ======*/
+
+
+
+
