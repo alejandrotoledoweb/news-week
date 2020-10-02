@@ -6,9 +6,9 @@
 }
 
 
-/*=============================================
+/* =============================================
 =            GLOBAL SETTINGS            =
-=============================================*/
+============================================= */
 
 .black-font-big {
   font-size: 1.25rem;
@@ -35,7 +35,7 @@
 }
 
 .primary-font {
-font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
 }
 
 .text-font {
@@ -163,36 +163,32 @@ font-family: "Roboto Condensed", sans-serif;
 
 /* =====  End of Section comment block  ====== */
 
-
-/*=============================================
+/* =============================================
 =            IN THE MAGAZINE            =
-=============================================*/
+============================================= */
 
 .after-cover-text {
   color: #f72210;
   font-weight: bold;
 }
 
-/*=====  End of IN THE MAGAZINE  ======*/
+/* =====  End of IN THE MAGAZINE  ====== */
 
-
-/*=============================================
+/* =============================================
 =            EDITOR'S PICK            =
-=============================================*/
+============================================= */
 
 .editor-pick-text {
   font-size: 0.81rem;
   line-height: 18px;
   color: #555;
-
 }
 
-/*=====  End of EDITOR'S PICK  ======*/
+/* =====  End of EDITOR'S PICK  ====== */
 
-
-/*=============================================
+/* =============================================
 =            U.S.            =
-=============================================*/
+============================================= */
 
 .black-font-news {
   font-size: 1rem;
@@ -201,7 +197,41 @@ font-family: "Roboto Condensed", sans-serif;
   color: black;
 }
 
-/*=====  End of U.s.  ======*/
+/* =====  End of U.s.  ====== */
 
+.font-text-us {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+  color: black;
+  font-family: "roboto condensed", Arial, Helvetica, sans-serif;
+}
 
+/* =============================================
+=            Section comment block            =
+============================================= */
 
+.subs-div {
+  position: relative;
+}
+
+.img-sub-2 {
+  position: absolute;
+  top: 45px;
+  left: 95px;
+}
+
+/* =====  End of Section comment block  ====== */
+
+.subs-btn {
+  font-size: 1.2rem;
+}
+
+.sign-up-form {
+
+}
+
+.subs-btn-2 {
+  font-size: 1.2rem;
+  overflow: ;
+}
