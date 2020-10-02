@@ -30,18 +30,11 @@
   font-weight: 600;
 }
 
-
 .small-font {
   font-size: 0.8rem;
 }
 
-/*=====  End of GLOBAL SETTINGS  ======*/
-
-
-
-
-
-
+/* =====  End of GLOBAL SETTINGS  ====== */
 
 /* =============================================
                     HEADER
@@ -52,7 +45,7 @@
   height: 20px;
 }
 
-.navbar {
+.bg-red-news {
   background: #f72210;
 }
 
@@ -72,10 +65,9 @@
   color: #fdc8c3;
 }
 
-
-/*=============================================
+/* =============================================
 =            FEATURE STORIES            =
-=============================================*/
+============================================= */
 
 .art-story a {
   font-size: 1.2rem;
@@ -88,12 +80,11 @@
   line-height: 1.125rem;
 }
 
-/*=====  End of FEATURE STORIES  ======*/
+/* =====  End of FEATURE STORIES  ====== */
 
-
-/*=============================================
+/* =============================================
 =            THE DEBATE            =
-=============================================*/
+============================================= */
 
 .border-top-gross {
   border-top: 4px solid #d9d9d9;
@@ -118,11 +109,49 @@
   display: block;
   bottom: 2.2rem;
   left: 50%;
-  padding: 0.1rem 0.30rem;
+  padding: 0.1rem 0.3rem;
 }
 
-/*=====  End of THE DEBATE  ======*/
+/* =====  End of THE DEBATE  ====== */
 
+/* =============================================
+=            SPONSORS            =
+============================================= */
 
+.text-form-size {
+  font-size: 1.187rem;
+}
 
+/* =====  End of SPONSORS  ====== */
+
+/* =============================================
+=            MORE STORIES SECTION            =
+============================================= */
+
+.font-title-more-stories {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  color: black;
+  font-weight: 700;
+}
+
+.font-p-more-stories {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.81rem;
+  color: black;
+}
+
+/* =====  End of MORE STORIES SECTION  ====== */
+
+/* =============================================
+=            Section comment block            =
+============================================= */
+
+.font-p-my-turn {
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #818181;
+}
+
+/* =====  End of Section comment block  ====== */
 
