@@ -263,7 +263,9 @@ ul, li {
 
 /*=====  End of FOOTER  ======*/
 
-
+.smaller-none {
+  display: none;
+}
 /* =============================================
 =            Media query min-width = 768px            =
 ============================================= */
@@ -283,21 +285,14 @@ ul, li {
     display: none;
   }
 
-  /* .top-story-more-stories {
-    display: grid;
-    grid-template-columns: 40% 55%;
-    grid-template-areas: 
-    "left right";
+  .medium-none {
+    display: none;
   }
 
-  .top-setory-section {
-    grid-area: right;
+  .medium-show {
+    display: initial;
   }
 
-  .feature-stories {
-    grid-area: left;
-  } */
 }
-
 /* =====  End of Media query min-width = 768px  ====== */
 
