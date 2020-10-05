@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+ul, li {
+  list-style-type: none;
+}
+
 
 /* =============================================
 =            GLOBAL SETTINGS            =
@@ -32,6 +36,10 @@
 
 .small-font {
   font-size: 0.8rem;
+}
+
+.medium-font {
+  font-size: 1.6rem;
 }
 
 .primary-font {
@@ -208,30 +216,39 @@
 }
 
 /* =============================================
-=            Section comment block            =
+=           SUBSCRIBE            =
 ============================================= */
 
-.subs-div {
-  position: relative;
+
+.img-sub-1 {
+  top: 8%;
+  left: 22%;
 }
 
 .img-sub-2 {
-  position: absolute;
-  top: 45px;
-  left: 95px;
+  top: 12%;
+  left: 40%;
 }
 
 /* =====  End of Section comment block  ====== */
 
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
 .subs-btn {
-  font-size: 1.2rem;
-}
-
-.sign-up-form {
-
+  font-size: 0.4rem;
 }
 
 .subs-btn-2 {
   font-size: 1.2rem;
-  overflow: ;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
 }
+
+
+/*=====  End of FOOTER  ======*/
+
+

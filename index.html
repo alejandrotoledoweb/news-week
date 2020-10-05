@@ -15,11 +15,11 @@
   
   <header>
 
-    <nav class="navbar bg-red-news nav-justified">
+    <nav class="navbar bg-red-news nav-justified fixed-top">
       <img class="header-logo" src="images/Newsweek.png" alt="logo-new-week">
       <div class="d-flex align-items-center">
         <a href="#"><i class="fas fa-user"></i></a>
-        <button type="button" class="btn-warning">SUBSCRIPTION<br> OFFERS ></button>
+        <button type="button" class="btn-warning">SUBSCRIBE ></button>
         <a href="#"><i class="fas fa-bars"></i></a>
       </div>
     </nav>
@@ -503,7 +503,7 @@
   =            Section EDITOR'S PICK          =
   =============================================*/ -->
 
-  <section class="mr-3 ml-3 mt-3">
+  <section class="mr-3 ml-3 mt-3 border-bottom pb-2">
     
     <div class="d-inline-flex w-100 justify-content-center">
       <img src="/images/in-the-magazine-small-logo.png" alt="news week small logo">
@@ -566,7 +566,7 @@
   =============================================*/ -->
 
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">U.S</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -604,7 +604,7 @@
   =============================================*/ -->
 
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">WORLD</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -644,7 +644,7 @@
 
 
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">BUSINESS</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -683,7 +683,7 @@
   =============================================*/ -->
   
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">TECH AND SCIENCE</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -721,7 +721,7 @@
   =============================================*/ -->
 
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">CULTURE</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -760,7 +760,7 @@
   =============================================*/ -->
 
   <section class="mr-3 ml-3 mt-3">
-    <h4 class="border-top pt-3 after-cover-text">U.S</h4>
+    <h4 class="pt-3 after-cover-text">SPORTS</h4>
 
     <article>
       <a href="#"><img class="mb-2" src="/images/us-img-1.png" alt="Joe Biden"></a>
@@ -792,7 +792,6 @@
       
     </div>
   </section>
-
     
   <!-- /*=============================================
   =            Section SUBSCRIBE       =
@@ -801,12 +800,19 @@
   <section class="mr-3 ml-3 mt-3">
     <h6 class="after-cover-text subs-title">SUBSCRIBE</h6>
     
-      <div class="subs-div d-block mt-5 mb-5 text-center">
-        <img class="img-sub-1" src="/images/subscribe-img-1.jpg" alt="magazine cover">
-        <img class="img-sub-2" src="/images/subscribe-img2.png" alt="magazine cover two">
+
+      <div class="subs-div mt-5 mb-5 text-center  w-100">
+        
+        <div class="img-container col-12 position-relative p-3 col-md-5">
+          <img class="img-fluid img-sub-1 position-relative" src="/images/subscribe-img-1.jpg" alt="magazine cover">
+           <img class="img-fluid img-sub-2 position-absolute"src="/images/subscribe-img2.png" alt="magazine cover two">        
+        </div>
+
+        
       </div>
 
-      <div class="d-block text-center text-font">
+      <div class="text-center text-font">
+        <h6 class="font-weight-bolder">In-depth Stories You Don't See Elsewhere About Topics You Want to</h6>
       <p>All Access + Weekly Delivery.</p>
       <p>Choose A Membership That's Perfect for You!</p>
   
@@ -822,68 +828,72 @@
 
  
   
-  <section class="mr-3 ml-3 mt-3">
+  <section class="mr-3 ml-3 mt-3 mb-3">
     <h6 class="after-cover-text subs-title">NEWSLETTER</h6>
-    <div class="text-center">
+    <div class="text-center border">
       <img class="w-100 mb-4" src="/images/newsletter-img.png" alt="newsletter in a phone">
       <h5 class="font-weight-bolder primary-font ">THE STARTING 5</h5>
       <p class="text-font">See why nearly a quarter of a million subscribers begin their day with the Starting 5</p>
-      <form action="/" class="d-flex sing-up-form">
-        <input type="text" placeholder="Email adresss">
-        <button class="subs-btn-2 bg-red-news text-white rounded-sm" type="submit">FREE SIGNUP ></button>
+      <form action="/" class="d-flex sing-up-form mb-4 d-block">
+        <input class="pl-3 ml-3 border" type="text" placeholder="Email adresss">
+        <button class="subs-btn-2 bg-red-news text-white rounded-sm mr-3 border" type="submit">FREE SIGNUP ></button>
       </form>
     </div>
 
   </section>
   </main>
 
-  <footer>
-    <div>
+  <footer class="pt-5 border-top">
+    <div class="ml-3 mr-3 border-bottom">
       <a href="#"><img src="/images/footer-logo.png" alt="newsweek red logo"></a>
-      <p>© 2020 NEWSWEEK DIGITAL LLC</p>
+      <p class="small-font text-secondary mt-2">© 2020 NEWSWEEK DIGITAL LLC</p>
       <ul class="footer-links-list d-flex">
         <li>
-         <a href="#"><i class="fab fa-facebook-square"></i></a>
+         <a href="#"><i class="fab fa-facebook-square text-secondary medium-font mr-2"></i></a>
        </li>
         <li>
-         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-twitter text-secondary medium-font mr-2"></i></a>
        </li>
         <li>
-         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-instagram text-secondary medium-font mr-2"></i></a>
        </li>
         <li>
-         <a href="#"><i class="fab fa-tumblr"></i></a>
+         <a href="#"><i class="fab fa-tumblr text-secondary medium-font mr-2"></i></a>
        </li>
         <li>
-         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in text-secondary medium-font"></i></a>
        </li>
       </ul>
     </div>
-    <div>
-      <ul>
-        <li>Editions:</li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
+    <div class="ml-3 mr-3 mt-3">
+      
+      <ul class="text-secondary row ml-1"> 
+        <span class="mr-2">Editions</span>
+        <li><a class="small-font text-secondary pr-2" href="#">U.S Edition</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">日本</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Pakistan</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Polska</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Romania</a></li>
       </ul>
 
-      <ul>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-        <li><a href="">U.S Edition</a></li>
-      </ul>
+    </div>
 
+    <div class="ml-3 mr-3">
+          
+      <ul class="row ml-1">
+        <li><a class="small-font text-secondary pr-2" href="#">About Us</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Corrections</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Contact Us</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Editorial Guidelines</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Advertise</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Copyright</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Terms & Conditions</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Privacy Policy</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Cookie Policy</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Terms of Sales</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Archive</a></li>
+        <li><a class="small-font text-secondary pr-2" href="#">Announcements</a></li>
+      </ul>
     </div>
   </footer>
 </body>
