@@ -9,6 +9,14 @@ ul, li {
   list-style-type: none;
 }
 
+.text-black {
+  color: black;
+  font-weight: 700;
+}
+
+.max-w-total {
+  max-width: 1320px;
+}
 
 /* =============================================
 =            GLOBAL SETTINGS            =
@@ -79,6 +87,10 @@ ul, li {
 .fa-user,
 .fa-bars {
   color: #fdc8c3;
+}
+
+.nav-top-2 {
+
 }
 
 /* =============================================
@@ -307,20 +319,22 @@ ul, li {
 =============================================*/
 
 @media (min-width: 992px) {
+  .big-show {
+    display: inherit;
+  }
 
-.big-show {
- display: initial;
-}
+  .big-none {
+    display: none;
+  }
 
-.big-none {
-  display: none;
-}
+  .header-logo {
+    width: 396px;
+    height: 60px;
+  }
 
-.header-logo {
-  width: 396px;
-  height: 60px;
-}
-
+  .big-img-magazine {
+    height: 250px;
+  }
 
 }
 
