@@ -300,3 +300,29 @@ ul, li {
 }
 
 /* =====  End of Media query min-width = 768px  ====== */
+
+
+/*=============================================
+=            Media Query min-widh 992px            =
+=============================================*/
+
+@media (min-width: 992px) {
+
+.big-show {
+ display: initial;
+}
+
+.big-none {
+  display: none;
+}
+
+.header-logo {
+  width: 396px;
+  height: 60px;
+}
+
+
+}
+
+
+/*=====  End of Media Query min-widh 992px  ======*/
