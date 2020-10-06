@@ -31,6 +31,14 @@ li {
   line-height: 1.6rem;
 }
 
+.black-font-opinion {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  line-height: 1.6rem;
+
+}
+
 .black-font-medium {
   font-size: 0.81rem;
   font-weight: bold;
@@ -45,7 +53,8 @@ li {
 }
 
 .small-font {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .medium-font {
@@ -340,6 +349,11 @@ li {
 
   .big-img-magazine {
     height: 250px;
+  }
+
+  .btn-down {
+    display: flex;
+    flex-direction: column;
   }
 }
 
