@@ -13,6 +13,7 @@ li {
 .text-black {
   color: black;
   font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .max-w-total {
@@ -75,7 +76,7 @@ li {
 }
 
 .btn-warning {
-  font-size: 13px;
+  font-size: 1rem;
   background-color: #ffe400;
   font-weight: bold;
   padding: 2px 3px;
@@ -88,6 +89,22 @@ li {
 .fa-user,
 .fa-bars {
   color: #fdc8c3;
+}
+
+.rectangle {
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 18px;
+}
+
+.triangle {
+  right: 80px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 18px solid #f72210;
+  border-left: 20px solid transparent;
 }
 
 /* =============================================
