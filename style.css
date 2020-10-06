@@ -18,7 +18,7 @@ ul, li {
   font-size: 1.25rem;
   font-weight: bold;
   color: black;
-  line-height: 10px;
+  line-height: 1.6rem;
 }
 
 .black-font-medium {
@@ -220,14 +220,12 @@ ul, li {
 ============================================= */
 
 .img-sub-1 {
-  position: absolute;
   left: 0;
   top: 0;
   z-index: -1;
 }
 
 .img-sub-2 {
-  position: relative;
   left: 40px;
   top: 10px;
   z-index: -1;
@@ -261,17 +259,22 @@ ul, li {
   display: none;
 }
 
-/* =====  End of FOOTER  ====== */
 
 .smaller-none {
   display: none;
 }
+
+/* =====  End of FOOTER  ====== */
+
+
 
 /* =============================================
 =            Media query min-width = 768px            =
 ============================================= */
 
 @media (min-width: 768px) {
+
+
   .login-nav,
   .offer-nav {
     display: initial;
