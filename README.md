@@ -15,7 +15,7 @@ Smashing Magazine copy using gray heat map to show hierarchy of elements
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/news-week/a49829d30effbc30bba428ddf345dbc2a87403fd/index.html)
+[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/news-week/5eb8baa7b7e3d4deac738687de64d3edb2f54688/index.html)
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone or download the repo and run the HTML File.
 
 ### Run tests
-- [We use Stylelint, Lighthout, & Webhint](https://github.com/mke2111/TNW-Clone/actions/runs/281210541)
+- [We use Stylelint, Lighthout, & Webhint](https://github.com/alejandrotoledoweb/news-week/actions/runs/292144485)
 - Linters #1
 
 
@@ -53,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mke2111/TNW-Clone/issues).
+Feel free to check the [issues page](https://github.com/alejandrotoledoweb/news-week/issues).
 
 ## Show your support
 
