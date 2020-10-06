@@ -234,13 +234,11 @@ ul, li {
 .img-sub-1 {
   left: 0;
   top: 0;
-  z-index: -1;
 }
 
 .img-sub-2 {
   left: 40px;
   top: 10px;
-  z-index: -1;
 }
 
 /* =====  End of Section comment block  ====== */
