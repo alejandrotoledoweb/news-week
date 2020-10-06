@@ -219,32 +219,31 @@ ul, li {
 =           SUBSCRIBE            =
 ============================================= */
 
-
 .img-sub-1 {
-  top: 8%;
-  left: 13%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .img-sub-2 {
-  top: 70%;
-  left: 30%;
+  position: relative;
+  left: 40px;
+  top: 10px;
+  z-index: -1;
 }
 
-
 /* =====  End of Section comment block  ====== */
-
 
 /* =============================================
 =            Section NEWSLETTER            =
 ============================================= */
 
-
 /* =====  End of Section NEWSLETTER  ====== */
 
-
-/*=============================================
+/* =============================================
 =            FOOTER            =
-=============================================*/
+============================================= */
 
 .subs-btn {
   font-size: 1.2rem;
@@ -257,22 +256,24 @@ ul, li {
   height: 30px;
 }
 
-.login-nav, .offer-nav {
+.login-nav,
+.offer-nav {
   display: none;
 }
 
-/*=====  End of FOOTER  ======*/
+/* =====  End of FOOTER  ====== */
 
 .smaller-none {
   display: none;
 }
+
 /* =============================================
 =            Media query min-width = 768px            =
 ============================================= */
 
 @media (min-width: 768px) {
-
-  .login-nav, .offer-nav {
+  .login-nav,
+  .offer-nav {
     display: initial;
   }
 
@@ -281,7 +282,8 @@ ul, li {
     visibility: hidden;
   }
 
-  .first-sponsor, .second-sponsor {
+  .first-sponsor,
+  .second-sponsor {
     display: none;
   }
 
@@ -292,7 +294,6 @@ ul, li {
   .medium-show {
     display: initial;
   }
-
 }
-/* =====  End of Media query min-width = 768px  ====== */
 
+/* =====  End of Media query min-width = 768px  ====== */
