@@ -295,6 +295,14 @@ li {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .fixed-sm-top {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+}
+
 /* =====  End of FOOTER  ====== */
 
 /* =============================================
