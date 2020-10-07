@@ -256,22 +256,31 @@ li {
 .img-sub-1 {
   left: -50px;
   top: 0;
-  margin-left: -25px;
+  margin-left: 25px;
 }
 
 .img-sub-2 {
-  left: 10px;
+  left: -30px;
   top: 8px;
+  margin-left: 60px;
 }
 
-/* =====  End of Section NEWSLETTER  ====== */
+.n-btn {
+  font-weight: bold;
+  font-size: 0.8rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+  border-radius: 5px;
+}
+
 
 /* =============================================
 =            FOOTER            =
 ============================================= */
 
 .subs-btn {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .subs-btn-2 {
@@ -295,21 +304,6 @@ li {
     position: fixed;
     top: 0;
     z-index: 999;
-  }
-
-  .two-img {
-    padding-left: 31%;
-  }
-
-  .img-sub-1 {
-    left: 0;
-    top: 0;
-    margin-left: -25px;
-  }
-
-  .img-sub-2 {
-    left: 40px;
-    top: 8px;
   }
 }
 
@@ -342,6 +336,21 @@ li {
   .medium-show {
     display: initial;
   }
+
+  .img-sub-1 {
+    left: 40px;
+    top: 0;
+    margin-left: -25px;
+  }
+
+  .img-sub-2 {
+    left: 20px;
+    top: 8px;
+  }
+
+  .imgs-sec {
+     height: 280px;
+}
 }
 
 /* =====  End of Media query min-width = 768px  ====== */
@@ -372,6 +381,10 @@ li {
     display: flex;
     flex-direction: column;
   }
+
+  .imgs-sec {
+    height: 300px;
+}
 }
 
 /* =====  End of Media Query min-widh 992px  ====== */
