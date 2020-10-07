@@ -12,8 +12,8 @@ li {
 
 .text-black {
   color: black;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 900;
+  font-size: 0.9rem;
 }
 
 .max-w-total {
@@ -256,18 +256,13 @@ li {
 .img-sub-1 {
   left: 0;
   top: 0;
+  margin-left: -25px;
 }
 
 .img-sub-2 {
   left: 40px;
-  top: 10px;
+  top: 8px;
 }
-
-/* =====  End of Section comment block  ====== */
-
-/* =============================================
-=            Section NEWSLETTER            =
-============================================= */
 
 /* =====  End of Section NEWSLETTER  ====== */
 
