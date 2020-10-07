@@ -15,7 +15,7 @@ Smashing Magazine copy using gray heat map to show hierarchy of elements
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/alejandrotoledoweb/news-week/97c31912e6e0029b13dae44c5319a43f345dc640/index.html)
+[Live Demo Link](https://alejandrotoledoweb.github.io/news-week/)
 
 
 ## Getting Started
