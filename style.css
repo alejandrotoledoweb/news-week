@@ -254,15 +254,16 @@ li {
 ============================================= */
 
 .img-sub-1 {
-  left: 0;
+  left: -50px;
   top: 0;
   margin-left: -25px;
 }
 
 .img-sub-2 {
-  left: 40px;
+  left: 10px;
   top: 8px;
 }
+
 
 /* =====  End of Section NEWSLETTER  ====== */
 
@@ -299,6 +300,17 @@ li {
 
   .two-img {
     padding-left: 31%;
+  }
+
+  .img-sub-1 {
+    left: 0;
+    top: 0;
+    margin-left: -25px;
+  }
+  
+  .img-sub-2 {
+    left: 40px;
+    top: 8px;
   }
 }
 
