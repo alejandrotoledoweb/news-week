@@ -274,7 +274,6 @@ li {
   border-radius: 5px;
 }
 
-
 /* =============================================
 =            FOOTER            =
 ============================================= */
@@ -349,8 +348,8 @@ li {
   }
 
   .imgs-sec {
-     height: 280px;
-}
+    height: 280px;
+  }
 }
 
 /* =====  End of Media query min-width = 768px  ====== */
@@ -384,7 +383,7 @@ li {
 
   .imgs-sec {
     height: 300px;
-}
+  }
 }
 
 /* =====  End of Media Query min-widh 992px  ====== */
