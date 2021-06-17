@@ -12,6 +12,7 @@ Smashing Magazine copy using gray heat map to show hierarchy of elements
 
 - HTML
 - CSS
+- Bootstrap
 
 ## Live Demo
 
