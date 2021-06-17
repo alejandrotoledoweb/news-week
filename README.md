@@ -2,9 +2,6 @@
 
 # NEWSWEEK PAGE USING BOOTSTRAP 
 
-Smashing Magazine copy using gray heat map to show hierarchy of elements
-
-
 ![screenshot](./screenshot.png)
 
 
